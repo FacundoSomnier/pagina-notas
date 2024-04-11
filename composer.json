@@ -1,0 +1,17 @@
+{
+    "name": "facundo/notas",
+    "autoload": {
+        "psr-4": {
+            "Facundo\\Notas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Somnier Facundo",
+            "email": "145161370+FacundoSomnier@users.noreply.github.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}
