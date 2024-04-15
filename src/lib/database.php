@@ -14,10 +14,10 @@ class Database {
 
 
     public function __construct(){
-        $this->host = 'localhost';
+        $this->host = getenv("DB_HOST");
         $this->db = 'notebook';
-        $this->user = 'root';
-        $this->password = '';
+        $this->user = getenv("DB_USER");
+        $this->password = getenv("DB_PASSWORD");
         $this->charset = 'utf8mb4';
     }
 
